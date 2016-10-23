@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    //控制平移
+    <translate
+        android:toXDelta="0"
+        android:fromXDelta="-100%p"
+        android:duration="2000"/>
+
+    //控制透明度
+    <alpha
+        android:duration="2000"
+        android:toAlpha="1"
+        android:fromAlpha="0.5"/>
+
+</set>
